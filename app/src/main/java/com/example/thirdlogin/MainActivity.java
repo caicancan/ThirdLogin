@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         //传入参数APPID和全局Context上下文
+
         mTencent = Tencent.createInstance(APP_ID,MainActivity.this.getApplicationContext());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
